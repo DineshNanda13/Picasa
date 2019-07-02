@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:id="@+id/magrita"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/margarita"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/title_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:layout_below="@+id/magrita"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_name_editText"
+        android:textSize="20sp"
+        android:text="Lime Margarita"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/title_textView"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <TextView
+        android:id="@+id/description_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:layout_below="@+id/title_name_editText"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/description_name_editText"
+        android:textSize="18sp"
+        android:text="A lime soda that one must have on a hot day"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/description_textView"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <TextView
+        android:id="@+id/preparation_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preparation Time"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_below="@+id/description_name_editText"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/preparationTimeAns_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 minutes"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_below="@+id/preparation_textView"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="45dp"/>
+
+    <TextView
+        android:id="@+id/serving_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Servings"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_below="@+id/description_name_editText"
+        android:layout_toRightOf="@+id/preparation_textView"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:id="@+id/servingAns_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_below="@+id/preparation_textView"
+        android:layout_toRightOf="@id/preparationTimeAns_textView"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="180dp"/>
+
+</RelativeLayout>

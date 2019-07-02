@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/beer"
+        android:layout_width="137dp"
+        android:layout_height="151dp"
+        android:src="@drawable/beer"
+        android:scaleType="fitXY" />
+    <ImageView
+        android:id="@+id/prix"
+        android:layout_width="137dp"
+        android:layout_height="151dp"
+        android:src="@drawable/grandprix"
+        android:scaleType="fitXY"
+        android:layout_toRightOf="@+id/beer"/>
+    <ImageView
+        android:id="@+id/jazz"
+        android:layout_width="137dp"
+        android:layout_height="151dp"
+        android:src="@drawable/jazz"
+        android:scaleType="fitXY"
+        android:layout_toRightOf="@+id/prix"/>
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="137dp"
+        android:layout_height="151dp"
+        android:src="@drawable/image1"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/beer"/>
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="137dp"
+        android:layout_height="151dp"
+        android:src="@drawable/image2"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/image1"/>
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="137dp"
+        android:layout_height="151dp"
+        android:src="@drawable/image3"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/image2"/>
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="137dp"
+        android:layout_height="151dp"
+        android:src="@drawable/image4"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/prix"
+        android:layout_toRightOf="@id/image1"/>
+    <ImageView
+        android:id="@+id/image5"
+        android:layout_width="137dp"
+        android:layout_height="151dp"
+        android:src="@drawable/image5"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/prix"
+        android:layout_toRightOf="@id/image4"/>
+    <ImageView
+        android:id="@+id/van"
+        android:layout_width="137dp"
+        android:layout_height="151dp"
+        android:src="@drawable/vancouver"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/image1"
+        android:layout_toRightOf="@id/image2"/>
+    <ImageView
+        android:id="@+id/italy"
+        android:layout_width="137dp"
+        android:layout_height="151dp"
+        android:src="@drawable/italy"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/image1"
+        android:layout_toRightOf="@id/van"/>
+    <ImageView
+        android:id="@+id/paris"
+        android:layout_width="137dp"
+        android:layout_height="151dp"
+        android:src="@drawable/paris"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/image2"
+        android:layout_toRightOf="@id/image3"/>
+    <ImageView
+        android:id="@+id/london"
+        android:layout_width="137dp"
+        android:layout_height="151dp"
+        android:src="@drawable/london"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/image2"
+        android:layout_toRightOf="@id/paris"/>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Share"
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:title="Bluetooth"
+                android:id="@+id/bluetooth"
+                android:icon="@drawable/bluetooth"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:title="Picasa"
+                android:id="@+id/picasa"
+                android:icon="@drawable/picasa"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:title="Messaging"
+                android:id="@+id/messaging"
+                android:icon="@drawable/ic_message"/>
+
+            <item
+                android:id="@+id/more"
+                android:title="More"
+                app:showAsAction="never">
+                <menu>
+                    <item
+                        android:title="Whatsapp"
+                        android:id="@+id/whatsapp"
+                        android:icon="@drawable/whatsapp"
+                        app:showAsAction="ifRoom"/>
+
+                    <item
+                        android:title="Facebook"
+                        android:id="@+id/fb"
+                        android:icon="@drawable/facebook"
+                        app:showAsAction="ifRoom"/>
+
+                    <item
+                        android:title="Instagram"
+                        android:id="@+id/insta"
+                        android:icon="@drawable/instagram"
+                        app:showAsAction="ifRoom"/>
+                </menu>
+            </item>
+
+        </menu>
+
+    </item>
+    <item
+        android:title="gmail"
+        android:id="@+id/gmail"
+        android:icon="@drawable/gmail"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Snapchat"
+        android:id="@+id/snapchat"
+        android:icon="@drawable/snapchat"
+        app:showAsAction="withText"/>
+
+
+
+</menu>
